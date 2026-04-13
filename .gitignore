@@ -1,0 +1,6 @@
+.superpowers/
+backend/store.db
+backend/venv/
+backend/.env
+frontend/.env.local
+node_modules/
