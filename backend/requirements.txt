@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+anthropic
+rapidfuzz
+qrcode[pil]
+python-multipart
+pydantic
+python-dotenv
+pytest
+httpx
