@@ -22,7 +22,6 @@ None.
 
 ## Pending Tasks
 
-- Improve error handling for failed vision processing
 - Add product image upload support
 - Mobile UX improvements on storefront
 - Add categories/tags to products
@@ -33,6 +32,7 @@ None.
 ## Recent Activity
 
 - `2026-04-13T21:00:00Z` — agent-claude registered as owner, ACDP initialized for product-finder
+- `2026-04-14T14:22:00Z` — agent-claude completed: improve error handling for vision processing (VisionError, partial failures, typed HTTP codes, 7 tests passing) on branch agent/agent-claude/error-handling
 
 ---
 

@@ -2,4 +2,4 @@
 
 | Agent | Role | Status | Task | Branch | Last Active |
 |-------|------|--------|------|--------|-------------|
-| agent-claude | owner | idle | — | main | 2026-04-13T21:00:00Z |
+| agent-claude | owner | idle | — | agent/agent-claude/error-handling | 2026-04-14T14:22:00Z |
