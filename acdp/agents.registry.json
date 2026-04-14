@@ -17,6 +17,21 @@
       "status": "approved",
       "registered_at": "2026-04-13T21:00:00Z",
       "approved_by": "self"
+    },
+    {
+      "id": "agent-gabo",
+      "role": "contributor",
+      "permissions": [
+        "declare_intent",
+        "acquire_lock",
+        "release_lock",
+        "commit",
+        "push",
+        "open_pr"
+      ],
+      "status": "approved",
+      "registered_at": "2026-04-14T00:00:00Z",
+      "approved_by": "human-owner"
     }
   ]
 }

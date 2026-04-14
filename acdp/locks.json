@@ -1,3 +1,22 @@
 {
-  "locks": []
+  "locks": [
+    {
+      "lock_id": "lock-gabo-vision-001",
+      "agent": "agent-gabo",
+      "resource": "backend/vision.py",
+      "scope": "file",
+      "reason": "Improve error handling — typed exceptions, partial failure support, logging",
+      "acquired_at": "2026-04-14T00:01:00Z",
+      "expires_at": "2026-04-14T00:31:00Z"
+    },
+    {
+      "lock_id": "lock-gabo-images-001",
+      "agent": "agent-gabo",
+      "resource": "backend/routes/images.py",
+      "scope": "file",
+      "reason": "Update route to handle typed VisionError exceptions",
+      "acquired_at": "2026-04-14T00:01:00Z",
+      "expires_at": "2026-04-14T00:31:00Z"
+    }
+  ]
 }

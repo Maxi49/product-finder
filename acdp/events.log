@@ -1,1 +1,5 @@
 {"type":"register","agent":"agent-claude","timestamp":"2026-04-13T21:00:00Z","data":{"role":"owner","project":"product-finder","note":"Initial owner registration — ACDP initialized"}}
+{"type":"register","agent":"agent-gabo","timestamp":"2026-04-14T00:00:00Z","data":{"role":"contributor","project":"product-finder","note":"Registered as contributor — approved by human-owner"}}
+{"type":"intent","agent":"agent-gabo","timestamp":"2026-04-14T00:01:00Z","data":{"task":"Improve error handling for failed vision processing","branch":"agent/agent-gabo/error-handling-vision","resources":["backend/vision.py","backend/routes/images.py"],"base_coord_rev":"main"}}
+{"type":"lock","agent":"agent-gabo","timestamp":"2026-04-14T00:01:00Z","data":{"resource":"backend/vision.py","scope":"file","reason":"Improve error handling — typed exceptions, partial failure support, logging","ttl_minutes":30,"lock_id":"lock-gabo-vision-001"}}
+{"type":"lock","agent":"agent-gabo","timestamp":"2026-04-14T00:01:00Z","data":{"resource":"backend/routes/images.py","scope":"file","reason":"Update route to handle typed VisionError exceptions","ttl_minutes":30,"lock_id":"lock-gabo-images-001"}}
