@@ -1,0 +1,22 @@
+{
+  "agents": [
+    {
+      "id": "agent-claude",
+      "role": "owner",
+      "permissions": [
+        "declare_intent",
+        "acquire_lock",
+        "release_lock",
+        "commit",
+        "push",
+        "open_pr",
+        "approve_agents",
+        "override_lock",
+        "modify_governance"
+      ],
+      "status": "approved",
+      "registered_at": "2026-04-13T21:00:00Z",
+      "approved_by": "self"
+    }
+  ]
+}
